@@ -17,7 +17,7 @@ const fadeInDown = keyframes`
 
 const Styles = styled.div`
   header {
-    min-height: 95vh;
+    min-height: 75vh;
     display: flex;
     flex-direction: column;
     align-items: center;
