@@ -27,8 +27,8 @@ export const NavigationBar = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav.Item><Nav.Link className="nav-item" href="/">Home</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link className="nav-item" href="/signup">Signup</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link className="nav-item" href="/login">Login</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link className="nav-item" href="../signup">Signup</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link className="nav-item" href="../login">Login</Nav.Link></Nav.Item>
                 </Navbar.Collapse>
             </Navbar>
         </div>
