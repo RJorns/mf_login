@@ -1,0 +1,78 @@
+h1 {
+  color: #696a6a;
+  margin-top: 2em;
+}
+
+form {
+  max-width: 25em;
+  width: 100%;
+  margin: 3em auto;
+}
+
+label,
+input {
+  display: block;
+  width: 100%;
+}
+
+label {
+  display: flex;
+  margin-bottom: .5em;
+  height: 1.375em;
+  color: #696a6a;
+}
+
+input {
+  margin-bottom: 2.5em;
+  padding: 0.6em;
+  border-radius: 0.25em;
+  border: 1px solid #777;
+}
+
+input.error {
+  border-color: #ff5a5f;
+}
+
+.input-feedback {
+  color: #ff5a5f;
+  margin-top: -0.9375em;
+  font-size: 0.875em;
+  margin-bottom: .25em;
+}
+
+.btn {
+  padding: 0.6em 1.2em;
+  margin-top: .25em;
+  background-color: #62cb31;
+  color: #696a6a;
+  border: 1px solid #62cb31;
+  border-radius: .35em;
+  background-color: 250ms;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #696a6a;
+  color: #62cb31;
+  border: 1px solid #62cb31;
+}
+
+.bottom-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1.5em;
+}
+
+.account {
+  color: #696a6a;
+}
+
+.forgot {
+  color: #ff594d;
+}
+
+.create-account {
+  margin-top: .5em;
+  color: #696a6a;
+}
